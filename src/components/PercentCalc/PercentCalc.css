@@ -1,0 +1,114 @@
+.percentContainer{
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.form{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.form button{
+    font-size: 20px;
+    width: 100px;
+}
+
+.tableContainer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+tr{
+    border: 1px solid #000;
+    margin: auto;
+    background-color: white;
+
+
+}
+
+
+th{
+    border: 1px solid #000;
+    width: 450px;
+    padding: 5px;
+
+}
+
+tr th:nth-of-type(2) {
+    width: 100px;
+  }
+
+  tr th:nth-of-type(3) {
+    width: 100px;
+  }
+
+  tr th:nth-of-type(4) {
+    width: 80px;
+  }
+
+  tr th:nth-of-type(5) {
+    width: 80px;
+  }
+
+.newProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.containerFormProduct{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+
+}
+
+.containerFormProduct button{
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    font-weight: bold;
+    background-color: #aec7cf;
+}
+
+.productInput{
+    width: 500px;
+}
+
+.borrarButton{
+    width: 300px;
+    font-size: 15px;
+    background-color: #b19289;
+    font-weight: bold;
+}
+
+.containerInputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border: solid 1px black;
+    padding: 50px;
+    background-color: #89a7b1;
+}
+
+.containerInputs input{
+    height: 30px;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 25px;
+}
